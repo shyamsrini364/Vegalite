@@ -1,32 +1,42 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 1000,
-    "height": 1000,
-    "title": " Online Customer Locations in Bangalore",
-    "projection": {"type": "equalEarth"},
-    "layer": [
-      {
-        "data": {
-          "url":"https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/w8_q3_proportional_symbol_map-Bangalore/js/BBMP.geo%20(Topo).json",
-          "format": {"type": "topojson", "feature": "BBMP.geo"}
-        },
-        "mark": {"type": "geoshape", "fill": "lightgreen", "stroke": "grey"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "title": "Resturants and Customers",
+  "projection": {"type": "equalEarth"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/w8_q3_proportional_symbol_map-Bangalore/js/BBMP.geo%20(Topo).json",
+        "format": {"type": "topojson", "feature": "BBMP.geo"}
       },
-      {
-        "data": {
-          "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/w8_q3_proportional_symbol_map-Bangalore/data/resturants.csv"
-        },
-        "mark": {"type": "circle", "tooltip": {"content": "data"}},
-        "encoding": {
-          "longitude": {"field": "Longitude", "type": "quantitative"},
-          "latitude": {"field": "Latitude", "type": "quantitative"},
-          "color":{
-            "field":"Dot",
-            "type": "nominal"
-          }
-
-          }
+      "mark": {"type": "geoshape", "fill":"grey","stroke":"dimgray"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/w8_q3_proportional_symbol_map-Bangalore/data/merged.csv"
+      },
+      "mark": {"type": "point","size":60,"tooltip":{"content":"data"}},
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        
+        "color":{
+          "field": "Type",
+          "type":"nominal",
+          "scale":{"scheme":"accent"}},
+        
+        "shape":{
+          "field":"Type",
+          "type":"nominal",
+          "fillOpacity":"1"
+          
         }
-    ]
-  }
+        
+        }
+          }
+        
 
+  
+  ]
+}
