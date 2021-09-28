@@ -28,7 +28,7 @@
           "color": {
             "field": "Occupation",
             "type": "nominal",
-            "scale": {"scheme": "#category10"}
+            "scale": {"scheme": "category10"}
           }
         }
       }
