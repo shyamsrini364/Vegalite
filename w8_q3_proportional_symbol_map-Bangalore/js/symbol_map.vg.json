@@ -14,24 +14,19 @@
       },
       {
         "data": {
-          "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/w8_q3_proportional_symbol_map-Bangalore/data/onlinedeliverydata.csv"
+          "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/w8_q3_proportional_symbol_map-Bangalore/data/resturants.csv"
         },
         "mark": {"type": "circle", "tooltip": {"content": "data"}},
         "encoding": {
-          "longitude": {"field": "longitude", "type": "quantitative"},
-          "latitude": {"field": "latitude", "type": "quantitative"},
-          "size": {
-            "field": "Family size",
-            "type": "quantitative",
-            "scale": {"domain": [1, 7]}
-
-          },
-          "color": {
-            "field": "Occupation",
+          "longitude": {"field": "Longitude", "type": "quantitative"},
+          "latitude": {"field": "Latitude", "type": "quantitative"},
+          "color":{
+            "field":"Dot",
             "type": "nominal"
           }
+
+          }
         }
-      }
     ]
   }
 
