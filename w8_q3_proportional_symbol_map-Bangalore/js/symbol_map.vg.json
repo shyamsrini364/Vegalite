@@ -10,13 +10,13 @@
         "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/w8_q3_proportional_symbol_map-Bangalore/js/BBMP.geo%20(Topo).json",
         "format": {"type": "topojson", "feature": "BBMP.geo"}
       },
-      "mark": {"type": "geoshape", "fill":"grey","stroke":"dimgray"}
+      "mark": {"type": "geoshape", "fill":"#c0e6f8","stroke":"silver"}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/w8_q3_proportional_symbol_map-Bangalore/data/merged.csv"
+        "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/w8_q3_proportional_symbol_map-Bangalore/data/merged_2.csv"
       },
-      "mark": {"type": "point","size":60,"tooltip":{"content":"data"}},
+      "mark": {"type": "circle","size":80,"tooltip":{"content":"data"}},
       "encoding": {
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
@@ -24,14 +24,10 @@
         "color":{
           "field": "Type",
           "type":"nominal",
-          "scale":{"scheme":"accent"}},
+          "scale":{"scheme":"tableau10"}}
         
-        "shape":{
-          "field":"Type",
-          "type":"nominal",
-          "fillOpacity":"1"
-          
-        }
+           
+        
         
         }
           }
