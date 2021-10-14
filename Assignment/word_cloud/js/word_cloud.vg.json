@@ -63,9 +63,10 @@
       "name": "color",
       "type": "ordinal",
       "domain": {"data": "table", "field": "text"},
-      "range": ["#d5a928", "#652c90", "#939597"]
+      "range": ["#8ECAE6","219EBC","#FB8500","#FFB703", "#023047"]
     }
   ],
+  "background" :"white",
 
   "marks": [
     {
@@ -88,7 +89,7 @@
       "transform": [
         {
           "type": "wordcloud",
-          "size": [900, 900],
+          "size": [700, 500],
           "text": {"field": "text"},
           "rotate": {"field": "datum.angle"},
           "font": "Helvetica Neue, Arial",
