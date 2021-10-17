@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
     "data": {
-      "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/parallel_coordinates/data/onlinedeliverydata.csv"
+      "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/parallel_coordinates/data/sample2.csv"
     },
     "width": 600,
     "height": 300,
