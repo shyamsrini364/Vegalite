@@ -6,8 +6,9 @@
    "mark": {"type":"bar","tooltip":true},
    "encoding": {
    "y": { "field": "Resturant_Name", "type": "nominal" ,"sort":"-x"},
-   "x": { "field": "Rating", "type": "quantitative","title":"Rating" }
-  
+   "x": { "field": "Rating", "type": "quantitative","title":"Rating" },
+   "color":{"field":"Recommended","type":"nominal","sort": ["Y", "N"], "scale": { "range":["#FFB703","#023047"]}
+}
    }
   }
   
