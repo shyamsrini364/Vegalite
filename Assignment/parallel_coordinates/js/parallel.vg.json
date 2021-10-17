@@ -4,12 +4,13 @@
     "data": {
       "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/parallel_coordinates/data/sample2.csv"
     },
-    "width": 600,
-    "height": 300,
+    "width": 900,
+    "height": 400,
     "transform": [
-      {"filter": "datum['Beak Length (mm)']"},
+      {"filter": "datum['Good Food quality']"},
       {"window": [{"op": "count", "as": "index"}]},
-      {"fold": ["Beak Length (mm)", "Beak Depth (mm)", "Flipper Length (mm)", "Body Mass (g)"]},
+      {"fold": ["Good Food quality", "Good Tracking system",
+  "Self Cooking","Health Concern","Late Delivery","Poor Hygiene"]},
       {
         "joinaggregate": [
           {"op": "min", "field": "value", "as": "min"},
@@ -35,9 +36,9 @@
     }, {
       "mark": "line",
       "encoding": {
-        "color": {"type": "nominal", "field": "Species"},
+        "color": {"type": "nominal", "field": "Medium (P1)","scale":{"scheme":"set1"}},
         "detail": {"type": "nominal", "field": "index"},
-        "opacity": {"value": 0.3},
+        "opacity": {"value": 100},
         "x": {"type": "nominal", "field": "key"},
         "y": {"type": "quantitative", "field": "norm_val", "axis": null},
         "tooltip": [{
@@ -57,7 +58,7 @@
     }, {
       "encoding": {
         "x": {"type": "nominal", "field": "key"},
-        "y": {"value": 0}
+        "y": {"value": 2}
       },
       "layer": [{
         "mark": {"type": "text", "style": "label"},
@@ -65,12 +66,12 @@
           "text": {"aggregate": "max", "field": "max"}
         }
       }, {
-        "mark": {"type": "tick", "style": "tick", "size": 8, "color": "#ccc"}
+        "mark": {"type": "tick", "style": "tick", "size": 10, "color": "#ccc"}
       }]
     }, {
       "encoding": {
         "x": {"type": "nominal", "field": "key"},
-        "y": {"value": 150}
+        "y": {"value": 95,"as":"1"}
       },
       "layer": [{
         "mark": {"type": "text", "style": "label"},
@@ -83,7 +84,7 @@
     }, {
       "encoding": {
         "x": {"type": "nominal", "field": "key"},
-        "y": {"value": 300}
+        "y": {"value": 290}
       },
       "layer": [{
         "mark": {"type": "text", "style": "label"},
@@ -95,7 +96,7 @@
       }]
     }],
     "config": {
-      "axisX": {"domain": false, "labelAngle": 0, "tickColor": "#ccc", "title": null},
+      "axisX": {"domain": false, "labelAngle": 45, "tickColor": "#ccc", "title": null},
       "view": {"stroke": null},
       "style": {
         "label": {"baseline": "middle", "align": "right", "dx": -5},
