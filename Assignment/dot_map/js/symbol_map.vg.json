@@ -1,38 +1,42 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 500,
-  "height": 500,
-  "title": "Resturants and Customers",
-  "projection": {"type": "equirectangular"},
-  "layer": [
+  "width": 900,
+  "height": 600,
+  "title": "Resturants in Bangalore",
+  "projection": {"type": "equirectangular",
+                "center":[180,-50]},
+   "layer": [
     {
       "data": {
         "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/dot_map/js/BBMP.geo%20(Topo).json",
         "format": {"type": "topojson", "feature": "BBMP.geo"}
       },
-      "mark": {"type": "geoshape", "fill":"#c0e6f8","stroke":"silver"}
+      "mark": {"type": "geoshape", "fill": "#dddddd", "stroke": "silver"}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/dot_map/data/merged_2.csv"
+        "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/dot_map/data/resturants_dotmap.csv" 
       },
-      "mark": {"type": "circle","size":80,"tooltip":{"content":"data"}},
+      "mark": {"type": "circle", "tooltip": {"content": "data"}},
       "encoding": {
-        "longitude": {"field": "longitude", "type": "quantitative"},
-        "latitude": {"field": "latitude", "type": "quantitative"},
-        
-        "color":{
-          "field": "Type",
-          "type":"nominal",
-          "scale":{"scheme":"tableau10"}}
-        
-           
-        
-        
-        }
-          }
-        
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"},
+        "size": {
+          "field": "rating",
+          "type": "quantitative",
+          "scale": {"domain": [1, 5],
+                    "range":[2,100]
 
-  
+          }
+        },
+        "color": {
+          "field": "Cuisines",
+          "type": "nominal",
+          "scale": {"scheme": "dark2"}
+        }
+      }
+    }
   ]
 }
+
+   
