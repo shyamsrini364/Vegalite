@@ -1,0 +1,162 @@
+Restaurant Name,Address,Latitude,Longitude,Cuisines,Cost _for_two,online_delivery,rating
+Sultans of Spice,"BluPetal Hotel, 60 Jyoti Nivas College Road, Koramangala 5th Block, Bangalore",12.9335035,77.615209,North Indian,1300,Yes,4.1
+The Fatty Bao - Asian Gastro Bar,"610, 3rd Floor, 12th Main, Off 80 Feet Road, Indiranagar, Bangalore",12.970521,77.6452637,Asian,2400,Yes,4.7
+Toit,"298, Namma Metro Pillar 62, 100 Feet Road, Indiranagar, Bangalore",12.9083564,77.5730146,Italian,2000,No,4.8
+Three Dots & A Dash,"840/1,100 Feet Road, Metro Pillar 56-57, Indiranagar, Bangalore",12.980727,77.6410099,Italian,1300,No,3.9
+Bombay Brasserie,"2989/B, 12th Main Road, HAL 2nd Stage, Indiranagar, Bangalore",12.970125,77.64582,Fast Food,1500,Yes,4.2
+Glen's Bakehouse,"297, 100 Feet Road, Indiranagar, Bangalore",12.97912,77.640525,Desserts,800,No,4
+Onesta,"501, Binnamangala Extension, 1st stage, C.M.H Road, Indiranagar, Bangalore",12.978574,77.643552,Italian,600,Yes,4.3
+Onesta,"Site 15, 15th Cross, 100 Feet Road, 4th Phase, JP Nagar, Bangalore",12.9061345,77.5968288,Italian,600,No,4.6
+ECHOES Koramangala,"44, 4th B Cross, Koramangala 5th Block, Bangalore",12.9338823,77.615424,North Indian,950,No,4.7
+Truffles,"28, 4th 'B' Cross, Koramangala 5th Block, Bangalore",12.9330557,77.6137926,Fast Food,800,Yes,4.7
+The Black Pearl,"105, 1st A Cross Road, Jyothi Nivas College Road, Koramangala 5th Block, Bangalore",12.9344374,77.6159175,North Indian,1400,No,4.1
+Eat Street,"11, 80 Feet Road, Opposite Indian Oil Petrol Pump, Koramangala 6th Block, Bangalore",12.939552,77.6260358,North Indian,400,Yes,4.3
+Koramangala Social,"118, Koramangala Industrial Area, Koramangala 7th Block, Bangalore",12.9355155,77.6141293,Fast Food,1500,No,4.5
+AB's - Absolute Barbecues,"90/4, 3rd Floor, Outer Ring Road, Munnekollaly Village, Marathahalli, Bangalore",12.94986,77.6990824,North Indian,1400,No,4.6
+Flechazo,"9/1, 1st Floor, Above Surya Nissan, VRR Orchid, Doddanakkundi, Marathahalli, Bangalore",12.97434,77.697354,North Indian,1200,No,4.4
+Onesta,"215, 216 & 220, Devasandra Village, Kasaba Hobli, New BEL Road, Bangalore",13.0302328,77.570572,Italian,600,No,4.6
+Communiti,"67 & 68, Brigade Solitaire, Opposite to Advaith Hyundai, Residency Road, Bangalore",12.9723828,77.6082642,Continental,1200,No,4.2
+Big Brewsky,"Behind MK Retail, Before WIPRO Corporate Office, Sarjapur Road, Bangalore",12.9129756,77.6831405,South Indian,1800,Yes,4.5
+Hoot,"BBMP 2034/69, Block 2, Kaikondrahalli, Varthur Hobli, Sarjapur Road, Bangalore",12.9141004,77.6786089,Italian,1400,No,3.9
+Farzi Cafe,"202, Level 2, UB City, Vittal Mallya Road, Lavelle Road, Bangalore",12.9715895,77.5960585,Modern Indian,1500,No,4.4
+MTR,,12.95509,77.5833305,South Indian,300,Yes,4.7
+Shri Sagar CTR,,12.9981488,77.5672883,South Indian,150,No,4.9
+Maiyas,,12.9292431,77.5809148,South Indian,500,Yes,4.2
+Vidyarthi Bhavan,,2.9450757,77.5692009,South Indian,100,No,4.5
+Venkateshwara Sweets,,12.9247783,77.5660729,Snacks,300,Yes,3.8
+Anand Bhavan Sweets,,12.9815216,77.6075521,Snacks,300,Yes,4.4
+Brahmins Coffee Bar,,12.9539228,77.5666784,South Indian,200,No,4.6
+The Jade Kitchen,"54 & 65, Marenahalli Village, Sarakki Layout, JP Nagar, Bangalore",12.9166073,77.6030656,North Indian,400,No,4.5
+The Sandwich Club,"1086/A, Twin Tulips, 18th Cross, 14th Main Road, Sector 3, HSR, Bangalore",12.9118413,77.6392171,Italian,250,No,4.2
+Bawarchi Inn,"1, 1st Floor, BTM Complex, 9th Main Road, 1st Stage, BTM, Bangalore",12.9168234,77.6041833,Beverages,600,No,5
+Bella,"382/71/4, 11th Main, 3rd Block, Jayanagar, Bangalore",12.9313435,77.5859307,North Indian,1000,No,2.6
+Crawl Street,"77/A, 4th Floor Floor, Jyoti Nivas College Road, Koramangala 5th Block, Bangalore",12.9324688,77.613998,Desserts,1200,No,2.8
+Vintage Shack,"1081, First Floor, 18th Cross, 14th Main, Sector 3, HSR, Bangalore",12.9120458,77.6380911,North Indian,900,No,4.3
+Zingron,"Solitaire, 62, 2nd Floor, 1st A Main, Koramangala 7th Block, Bangalore",12.9363212,77.6151141,Beverages,750,Yes,4.6
+Shawarma Inc,"172/1, 3rd Floor, Food Court, Vega City Mall, Srinivas Industrial Estate, Bannerghatta Road, Bangalore",12.9077144,77.6011375,Fast Food,250,No,3.1
+Magnolia,"37, SBI colony, 80 Feet Road, Above AlwaysDry, Next To SBI, Koramangala 3rd Block, Bangalore",12.9256099,77.6364316,North Indian,900,Yes,1.6
+The Kitchen,"22, 6th A cross, Jakkasandra Extension, Koramangala 1st Block opposide Agara lake near the dhanush driving school.Bangalore",12.922431,77.639134,North Indian,300,Yes,5
+Rajvardhan Foods,"1291, 25th Main, Near Big Bazaar, 9th Block, Jayanagar, Bangalore",12.9173317,77.5922634,Italian,300,No,3.4
+Chicken Man,"296, Ground Floor, 5th Phase, 100 Feet Outer Ring Road, JP Nagar, Bangalore",12.909725,77.58584,North Indian,400,No,2.1
+Green Go,"3rd Floor, Unit TF-K-02 Kiok Vega City Mall, Bannerghatta Road, Bangalore",12.9077072,77.6012662,Fast Food,200,Yes,1.8
+You N Cane,"25th Main Road, Kottapalya, 9th Block, Jayanahara, Bangalore",12.9189893,77.5926486,South Indian,250,No,1.9
+Bharat Kitchen,"1/44, Venkatapura Main Road, Koramangala 1st Block, Bangalore",12.9200046,77.6329136,Fast Food,300,No,3.8
+Tandoori,"474, Ground floor, 1st cross road, KHB Colony, Koramangala 5th Block, Bangalore",12.9338097,77.6194908,Desserts,300,No,3.9
+Kargeens,"36, 100 Feet Road, Koramangala 6th Block, Bangalore",12.9352945,77.6241402,North Indian,600,No,1.2
+Tomago Roast,"1191, 18th Main, 2nd Cross, 1st Stage, DRC Post, BTM, Bangalore",12.9233286,77.6134387,Fast Food,400,Yes,3.8
+Dilish Kitchens,"20, 6th Cross, 4th A Main, N.S Palya, Dollors Colony, BTM 2nd Stage, Bangalore, BTM, Bangalore",12.9061661,77.6028151,Fast Food,500,No,3.7
+Champaran Spice,"931, 4th Cross, 16th Main, BTM 2nd Stage, Mico Layout, BTM, Bangalore",12.9155332,77.6076431,North Indian,400,Yes,4.5
+French Bakery,"579, 11th Cross, 26th A Main, BTM Layout 2nd Stage, BTM, Bangalore",12.910552,77.6064341,Desserts,250,No,2.1
+Aramane Restaurant,"154/9, Bannerghatta Main Rd",12.8947684,77.5986151,North Indian,800,No,3.7
+Drunkling - Sizzlers and Pub,"145, 60ft Road, KHB Colony, Koramangala 5th Block, Bangalore",12.9369989,77.6196223,Fast Food,1000,No,2.5
+Bengali Fun Foods,"66, 35th Main, 100ft Ring Road, Near Silk Board BTM 2nd Stage, Bangalore",12.9160364,77.6185561,Fast Food,600,No,4.6
+Bombay Talkies,"10A 38th Cross Road 5th Block, Jayanagar, Bangalore",12.921597,77.579433,North Indian,200,No,4.9
+Bhojon Tripti,"E/1/145 BTS layout, Arekere, Bannerghatta Road, Bangalore",12.8876459,77.6062227,Desserts,300,No,1.1
+Khan Saab Hotel,"7/1, Hosur Rd, Popular Colony, Bommanahalli, Bangalore, Bengaluru",12.9006605,77.6320285,North Indian,300,No,1.8
+Euki,"1557, Divya Towers, 11th Main Road, 4th T Block, Jayanagar, Bangalore",12.9241545,77.5881445,Italian,900,Yes,1.8
+A.M New Punjab Food Corner,"49/6-15, 3rd Main Road, Janatha Colony, Jakkasandra, Koramangala 1st Block, Bangalore",12.9234265,77.6379509,North Indian,350,Yes,2.5
+Samosa King,"17th Main Road Corner, BTM 2nd Stage, Bangalore",12.9141766,77.6105463,Fast Food,200,No,4.1
+The Cheesecake Corner,"BTM Second Stage, BTM, Bangalore",12.9083215,77.6050777,Fast Food,400,No,2.8
+Food Court,"7, Lucky Corner Bulding, Vinaya Nagar, 5th Phase, JP Nagar, Bangalore",12.8972404,77.588659,North Indian,300,Yes,1.9
+Vyanjan,"744, 13th Main, 7th Cross, BTM 2nd Stage, BTM, Bangalore",12.9137055,77.6089443,Desserts,300,Yes,2.1
+Mid Night Hunting,"28th Cross, Ejipura Viveknagar Post, Near Mayura Garden Apartment, Ejipura",12.9395972,77.6314993,North Indian,300,Yes,1.7
+Carrots,"607, First Floor, 80 Feet Road, 6th Block, Koramangala 6th Block, Bangalore",12.938773,77.6257756,Beverages,1100,Yes,3.9
+Eatsomnia,"Building 58, New 3, A Main Road Marenahalli, JP Nagar, Bangalore",12.915347,77.5884481,Fast Food,500,Yes,3.1
+Swad 'E' Punjab,"458, Ground Floor, 2nd Main, Outer Ring Road, HSR, Bangalore",12.9222181,77.5592209,North Indian,500,No,3.9
+Rolls & Co,"6th Cross Road, Koramangala 6th Block, Bangalore",12.9379567,77.6238698,North Indian,400,No,4.8
+Fogg,"10, Opposite Forum Mall, Taverekere, Suddagunte Palya, BTM, Bangalore",12.9344398,77.6112678,Asian,200,Yes,2.8
+Sunny Cafe & Kitchen,"780, Ground Floor, 19th Main Road, Sector 1, HSR, Bangalore",12.9133314,77.64465,North Indian,700,Yes,1.9
+The Paratha Stories,"Koramangala 1st Block, Bangalore",12.9265132,77.6361552,Desserts,400,No,4.7
+Mycakeshop,"29, 7th Cross Road, Bhavani Nagar, Suddagunte Palya, BTM, Bangalore",12.9294697,77.6030469,North Indian,300,Yes,1.5
+Mid Night Hunting,"28th Cross, Ejipura Viveknagar Post, Near Mayura Garden Apartment, Ejipura",12.9395972,77.6314993,North Indian,300,No,1.4
+Carrots,"607, First Floor, 80 Feet Road, 6th Block, Koramangala 6th Block, Bangalore",12.938773,77.6257756,Fast Food,1100,No,2.1
+Eatsomnia,"Building 58, New 3, A Main Road Marenahalli, JP Nagar, Bangalore",12.915347,77.5884481,North Indian,500,No,2.3
+Rolls & Co,"6th Cross Road, Koramangala 6th Block, Bangalore",12.9379567,77.6238698,Fast Food,400,Yes,5
+Fogg,"10, Opposite Forum Mall, Taverekere, Suddagunte Palya, BTM, Bangalore",12.9344398,77.6112678,South Indian,200,Yes,3.7
+Mycakeshop,"29, 7th Cross Road, Bhavani Nagar, Suddagunte Palya, BTM, Bangalore",12.9294697,77.6030469,North Indian,300,Yes,1.1
+Roll N Rock,"10/1, 17th Cross, 26th Main, Murthappa Garden, 6th Phase, JP Nagar, Bangalore",12.9056215,77.5903067,Fast Food,400,Yes,1.2
+A Today Thick Shakes,"488, Basement, Opposite Krishna Temple, Koramangala 5th Block, Bangalore",12.9334987,77.6187723,North Indian,200,No,4.3
+Armaani Caffe,"66, 1st Cross Road, KEB Colony, New Gurappana Palya, 1st Stage, BTM Layout, Bangalore",12.9171284,77.6045076,Fast Food,250,No,1.7
+Dhabeliwala,"Shop 11, 24th Main Road, Ayodya Nagar, Phase 5, JP Nagar, Bangalore",12.9020554,77.5857013,Italian,250,Yes,2.2
+Wok And Rolls,"982 B, 1st Main, Koramangala 1st Block, Bangalore",12.9240906,77.6366457,North Indian,300,No,2.9
+Hang10 Resto N Cafe,"688, 3rd Cross, 29th Main Road, 2nd Stage, BTM, Bangalore",12.913899,77.6148445,North Indian,700,Yes,3.8
+Bubblewrap Waffle Co.,"663, 11th Main, 34th Cross, 4th Block, Jayanagar, Bangalore",12.9244169,77.5860258,Desserts,400,Yes,3.5
+Swad Restaurant,"House 86, Ground Floor 3rd cross 1st Main N.S. Palya, Behind Shoppers Stop, BTM Layout, BTM 2nd stage Bangalore",12.9122244,77.6005178,Asian,550,No,4.3
+Northern Bites,"9/1, Bilekahalli, Near IIM Bangalore, Bannerghatta Road, Bangalore",12.8956152,77.602547,Asian,400,Yes,3.9
+Asgardian Moreover Chai,"45, 13th Cross, Madiwala, 1st Stage, BTM, Bangalore",12.9219536,77.61449,South Indian,300,No,2.7
+Sober Turtle,"1st Main, GK Tower, Koramangala 4th Block, Bangalore",12.9240906,77.6366457,North Indian,250,Yes,1.3
+Classic Biryani Hut,"8, First Floor, 2nd Cross, Yullukunte Road, Sector 3, HSR, Bangalore",12.9042258,77.641005,Bakery,300,No,4.6
+B.M.W - Bhookh Mitaane Wala,"1st Block Koramangala, HSR Layout 5th Sector, Bengaluru, Karnataka",12.9189937,77.6326178,Italian,500,Yes,3
+Khan's Biryani,"75, Near Tavarekere Bus Stop, Tavarekere Road",12.92221,77.610538,North Indian,300,Yes,2.2
+Khaja Military Hotel,"84/11, Mangamanpalya Main Road, Near HP Gas Agency, HSR, Bangalore",12.9142043,77.6355101,North Indian,400,No,3.2
+Abhiruchi Moonlight,"1, 2nd Floor, Venkataswamy Building, Near Prashanth Hospital, Bommanahalli, Bangalore",12.9066108,77.6287257,North Indian,300,No,3.1
+Dhaba Express,"7, 1st Floor, HSR Layout, Sector 7, Bangalore",12.9083955,77.6349979,South Indian,400,Yes,3.2
+TOKI Taco House,"Eat Street, 900, 80 Feet Main Road, Opp Indian Oil Petrol Pump, Koramangala 6th Block, Bangalore",12.939552,77.6260358,South Indian,200,No,1.3
+Hotel Vedha,"91, Begur Road, Hongasandra, BTM, Bangalore",12.9001801,77.6269475,Chinese,200,No,5
+Multi Kitchen,"33, 1st Main Road, Bharathi Layout, SG Palya, DRC Post, BTM, Bangalore",12.9310057,77.6070169,South Indian,300,Yes,3.2
+Bangali Babu Restaurant,"21,7th Main Road,NS Palya, BTM 2nd stage, BTM, Bangalore",12.9087511,77.6063249,Desserts,250,Yes,2.7
+JP Fish Land,"35, 16th Main Road, Near Nico Layout, 2nd stage, BTM Bangalore",12.9063641,77.6104632,North Indian,300,No,2.6
+Eatery Have U Been,"767-768, 16th Main Road, MCHS Colony, Stage 2, BTM 2nd Stage, Bangalore",12.9131633,77.6098791,Desserts,500,No,1.7
+Comboeats,"Shop 9, 3rd Cross, Mangamanapalya Road, Sector 6, HSR, Bangalore",12.9126097,77.6268125,North Indian,550,Yes,1.4
+Salkara Arabian Delight & Bakes,"Venkatapura Main Road, Koramangala 1st Block, Bengaluru",12.9219284,77.633571,Asian,300,Yes,2.5
+Sip N Bite,"NGR Layout, Roopena Agrahara, Bommanahalli, Bangalore",12.9106725,77.6235413,South Indian,300,No,4.6
+Tiffin Box,"24, 6th Cross, 16th Main, BTM 2nd Stage, BTM, Bangalore",12.9148979,77.6126707,North Indian,200,Yes,1.2
+Candy Cake,"10, Samruddi Regency Shop Number 3, 1st Cross, Chocolate Factory Road, Tavarekere",12.9242584,77.6102141,North Indian,500,No,4.9
+Whooppeezz,"Ground Floor, 945, Mico Layout,16TH Main, BTM Layout, BTM, Bangalore",12.9133936,77.6100766,Asian,500,Yes,3.9
+Hungry Lee,"Hermain Complex, 16th Main, Stage 2, BTM, Bangalore",12.9157467,77.6099303,Asian,500,No,1
+South Side Grill,"450, 17th Cross, Sector 4, HSR Layout, Bangalore",12.912304,77.641602,Asian,600,Yes,3.6
+Cinnamon,"78, Ground Floor, Right Wing, 11th Main, 14th Cross, Behind BDA Complex, HSR, Bangalore",13.0188784,77.5010414,Asian,550,No,4.8
+Kolakata Biryani Cafe,"750, 7th Cross, 14th Main, BTM, Bangalore",12.9194518,77.6088285,Asian,400,No,1.8
+Ammayi Thakkaram,"8, 1st Main, 1st B Cross, Maruti Nagar, Madiwala, Near BTM, Bangalore",12.9249002,77.6163764,Desserts,400,Yes,2.9
+Udupi Thadka,"138, 29th Main, Dollars Colony, BTM 2nd Stage, Bangalore, Bengaluru",12.9057057,77.6039556,Asian,250,No,1.2
+Sri Venkateswara Andra Mess,"39/2/19, 2nd Cross, Bhavani Nagar, SG Palya, BTM, Bengaluru",12.9303133,77.606175,Asian,120,No,1.9
+Yaduvanshi Hotel,"VP Road, Near Someshwara Temple, Dollar Scheme Colony, 1st Stage BTM, Bangalore",12.9180871,77.6185435,Desserts,300,No,1.5
+Holige Mane,"171/1, PR Building, 16th Main, Near Shobha hospital, Tavarekere Main Road, BTM, Bangalore",12.9221041,77.6110906,Desserts,150,No,4.8
+The Lassi Bar,"16th Main Road, BTM Stage 2, Kuvempu Nagar, BTM, Bangalore",12.9139956,77.6101014,North Indian,300,No,4.9
+Singh Punjabi Dhaba,"8, 5th Cross Road, Bharathi Layout, Venkateshwara Layout, Suddagunte Palya, BTM, Bangalore",12.9260058,77.6110058,Desserts,400,No,2.6
+Pabrai's Fresh and Naturelle Icecreams,"439, Ground Floor, 6th Main, 7th Cross, BTM 2nd Stage, Bengaluru",12.9136268,77.6057325,Desserts,300,No,3.3
+Al-Madina,"30, 7th A Cross, 1st Stage, BTM, Bangalore",12.9730877,77.6448455,Snacks,500,Yes,3.1
+Banjara Melting Pot,"32, 80 Feet Road, 4th Block, Koramangala 4th Block, Bangalore",12.9313265,77.6327826,South Indian,1700,Yes,3
+Homely Curries & Pickles,"1204, 2nd Main, Tavarekere Extension, Maruthi Nagar, BTM, Bangalore",12.9249865,77.6127996,South Indian,300,No,4.6
+Kopper Kadai,"77/A, Ground Floor, Cygnus Chambers, JNC Road, Koramangala 5th Block, Bangalore",12.93256,77.613906,South Indian,1200,No,2.1
+Late Night,"2nd Stage, BTM, Bangalore",12.910552,77.6064341,North Indian,500,Yes,4.7
+Punjabi Daawat,"934, Near to Udupi Garden Signal, 16th Main Road, Second Stage, BTM, Bangalore",12.917172,77.610075,North Indian,550,No,2.9
+Borah's Kitchen,"1, 13th Cross Road, Maruti Nagar, 1st Stage, BTM, Bangalore",12.9220914,77.6141198,North Indian,250,No,3.9
+Momo Jojo,"7, 2nd Cross, Brindavan Nagar, Ist Main Road, BTM, Bangalore",12.9263381,77.6100895,Desserts,300,No,2.2
+Mountain Spice,"127, 2nd D Main Road, Opposite Corporation Bank, Koramangala 8th Block, Bangalore",12.942007,77.616026,Fast Food,400,No,4.1
+Kevins Kitchen,"20th, J cross, Ejipura Rama temple road, Bangalore",12.9448497,77.6297284,Arabian,400,Yes,4.1
+Yeti,"36, 20th Lane, Jay Bheema Nagar, 1st stage, BTM Layout, Bangalore, BTM, Bangalore",12.916325,77.6122523,North Indian,300,Yes,1.4
+The Biryani Story,"746, 7th Cross, 13th Main, BTM, Bangalore",12.9137638,77.6090154,South Indian,600,Yes,1.6
+Tasty Magic,"20-1, Chikkadugodi Main Road, DRC Post",12.9258233,77.6087757,"North Indian, Chinese",600,Yes,3.5
+Freeze It,"22, Ground Floor, 7th Cross, 1st B Main, 2nd Stage, BTM, Bangalore",12.9134834,77.6030972,South Indian,300,Yes,4.1
+Spoorthi Ice Cream,"388, 1st Main, VP Road, Old Madiwala, 1st Stage",12.922637,77.617444,Desserts,150,Yes,2.5
+Maruti Garden,"47, Maruthinagar Main Road, Madiwala, BTM, Bangalore",12.9207951,77.6133334,North Indian,450,Yes,1
+Sofiya Cakes,"86, 6th Cross Road, Kuvempu Nagar, Stage 2, Kodihalli, BTM, Bangalore",12.9139293,77.6036395,Fast Food,300,Yes,4.2
+Oveanly,"1st cross, Tavarekere Main Road, SG Palya, BTM, Bangalore",12.9328283,77.6100434,Asian,200,Yes,4.4
+,,,,,150,No,3.1
+,,,,,150,Yes,3.2
+,,,,,300,No,1.6
+,,,,,300,Yes,4.3
+,,,,,200,No,2.3
+,,,,,300,No,1
+,,,,,400,Yes,3.5
+,,,,,200,No,4.5
+,,,,,500,Yes,4.4
+,,,,,100,Yes,1.9
+,,,,,400,No,4.6
+,,,,,300,Yes,1.4
+,,,,,300,Yes,1.4
+,,,,,350,Yes,3.6
+,,,,,300,Yes,4.8
+,,,,,200,Yes,2.9
+,,,,,300,No,1.5
+,,,,,650,Yes,4
+,,,,,,,4
+,,,,,,,2.2
+,,,,,,,2.6
+,,,,,,,4.4
+,,,,,,,3.7
+,,,,,,,5
+,,,,,,,2.5
+,,,,,,,1.6
+,,,,,,,3.4
