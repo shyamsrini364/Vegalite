@@ -1,15 +1,17 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-   "title": { "text": "Resturants and their Ratings" },
-   "data": {
-   "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/bar_chart/data/bar_chart_data_swiggy.csv"},
-   "mark": {"type":"bar","tooltip":true},
-   "encoding": {
-   "y": { "field": "Resturant_Name", "type": "nominal" ,"sort":"-x"},
-   "x": { "field": "Rating", "type": "quantitative","title":"Rating" },
-   "color":{"field":"Recommended","type":"nominal","sort": ["Y", "N"], "scale": { "range":["#FFB703","#023047"]}
+   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": { "text": "Resturants and their Ratings" },
+  "width": 900,
+  "height": 600,
+  "data": {
+  "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/bar_chart/data/bar_chart_data_swiggy.csv"},
+  "mark": {"type":"bar","tooltip":true},
+  "encoding": {
+  "x": { "field": " Resturant Name", "type": "nominal" ,"sort":"-x"},
+  "y": { "field": "Cost_for_Two", "type": "quantitative","title":"Approximate Cost" },
+  "color":{"field":"Rating","type":"quantitative","sort": [], "scale": { "range":["#FFB703","#023047"]}
 }
-   }
   }
-  
-  
+ }
+ 
+ 
