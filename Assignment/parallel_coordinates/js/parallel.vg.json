@@ -36,9 +36,9 @@
     }, {
       "mark": "line",
       "encoding": {
-        "color": {"type": "nominal", "field": "Medium (P1)","scale":{"scheme":"accent"}},
+        "color": {"type": "nominal", "field": "Gender","scale":{"range": ["#8ECAE6","#FFD258","#023047","#023047"]}},
         "detail": {"type": "nominal", "field": "index"},
-        "opacity": {"value": 0.3},
+        "opacity": {"value": 0.5},
         "x": {"type": "nominal", "field": "key"},
         "y": {"type": "quantitative", "field": "norm_val", "axis": null},
         "tooltip": [{

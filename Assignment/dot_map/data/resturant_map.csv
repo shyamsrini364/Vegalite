@@ -1,0 +1,28 @@
+Restaurant Name,Address,Latitude,Longitude,Cuisines,Average Cost for two,Has Online delivery,Is delivering now,Switch to order menu,Aggregate rating,Votes
+Sultans of Spice,"BluPetal Hotel, 60 Jyoti Nivas College Road, Koramangala 5th Block, Bangalore",12.9335035,77.615209,"North Indian,",1300,Yes,No,No,4.1,2416
+The Fatty Bao - Asian Gastro Bar,"610, 3rd Floor, 12th Main, Off 80 Feet Road, Indiranagar, Bangalore",12.970521,77.6452637,Asian,2400,Yes,No,No,4.7,2369
+Toit,"298, Namma Metro Pillar 62, 100 Feet Road, Indiranagar, Bangalore",12.9083564,77.5730146,Italian,2000,No,No,No,4.8,10934
+Three Dots & A Dash,"840/1,100 Feet Road, Metro Pillar 56-57, Indiranagar, Bangalore",12.980727,77.6410099,Italian,1300,No,No,No,3.9,1354
+Bombay Brasserie,"2989/B, 12th Main Road, HAL 2nd Stage, Indiranagar, Bangalore",12.970125,77.64582,Fast Food,1500,Yes,No,No,4.2,231
+Glen's Bakehouse,"297, 100 Feet Road, Indiranagar, Bangalore",12.97912,77.640525,Desserts,800,No,No,No,4,3533
+Onesta,"501, Binnamangala Extension, 1st stage, C.M.H Road, Indiranagar, Bangalore",12.978574,77.643552, Italian,600,Yes,No,No,4.3,1413
+Onesta,"Site 15, 15th Cross, 100 Feet Road, 4th Phase, JP Nagar, Bangalore",12.9061345,77.5968288, Italian,600,No,No,No,4.6,781
+ECHOES Koramangala,"44, 4th B Cross, Koramangala 5th Block, Bangalore",12.9338823,77.615424,North Indian,950,No,No,No,4.7,276
+Truffles,"28, 4th 'B' Cross, Koramangala 5th Block, Bangalore",12.9330557,77.6137926,Fast Food,800,Yes,No,No,4.7,9667
+The Black Pearl,"105, 1st A Cross Road, Jyothi Nivas College Road, Koramangala 5th Block, Bangalore",12.9344374,77.6159175,North Indian,1400,No,No,No,4.1,5385
+Eat Street,"11, 80 Feet Road, Opposite Indian Oil Petrol Pump, Koramangala 6th Block, Bangalore",12.939552,77.6260358,"North Indian,",400,Yes,No,No,4.3,753
+Koramangala Social,"118, Koramangala Industrial Area, Koramangala 7th Block, Bangalore",12.9355155,77.6141293,Fast Food,1500,No,No,No,4.5,1288
+AB's - Absolute Barbecues,"90/4, 3rd Floor, Outer Ring Road, Munnekollaly Village, Marathahalli, Bangalore",12.94986,77.6990824, North Indian,1400,No,No,No,4.6,6907
+Flechazo,"9/1, 1st Floor, Above Surya Nissan, VRR Orchid, Doddanakkundi, Marathahalli, Bangalore",12.97434,77.697354, North Indian,1200,No,No,No,4.4,983
+Onesta,"215, 216 & 220, Devasandra Village, Kasaba Hobli, New BEL Road, Bangalore",13.0302328,77.570572, Italian,600,No,No,No,4.6,627
+Communiti,"67 & 68, Brigade Solitaire, Opposite to Advaith Hyundai, Residency Road, Bangalore",12.9723828,77.6082642,Continental,1200,No,No,No,4.2,334
+Big Brewsky,"Behind MK Retail, Before WIPRO Corporate Office, Sarjapur Road, Bangalore",12.9129756,77.6831405, South Indian,1800,Yes,No,No,4.5,5705
+Hoot,"BBMP 2034/69, Block 2, Kaikondrahalli, Varthur Hobli, Sarjapur Road, Bangalore",12.9141004,77.6786089, Italian,1400,No,No,No,3.9,405
+Farzi Cafe,"202, Level 2, UB City, Vittal Mallya Road, Lavelle Road, Bangalore",12.9715895,77.5960585,Modern Indian,1500,No,No,No,4.4,754
+MTR,,12.95509,77.5833305,South Indian,300,Yes,,,4.7,
+Shri Sagar CTR,,12.9981488,77.5672883,South Indian,150,No,,,4.9,
+Maiyas ,,12.9292431,77.5809148,South Indian,500,Yes,,,4.2,
+Vidyarthi Bhavan,,2.9450757,77.5692009,South Indian,100,No,,,4.5,
+Venkateshwara Sweets,,12.9247783,77.5660729,Snacks,300,Yes,,,3.8,
+Anand Bhavan Sweets,,12.9815216,77.6075521,Snacks,300,Yes,,,4.4,
+Brahmins Coffee Bar,,12.9539228,77.5666784,South Indian,200,No,,,4.6,
