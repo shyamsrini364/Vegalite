@@ -12,12 +12,12 @@
   <!--import pure.css -->
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display",rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
   <!--style-->
   <style>
     *{
-      font-family: 'PT sans', sans-serif;
+      font-family: 'Poppins', sans-serif;
     }
     h1{
       font-weight: 1000;
@@ -28,17 +28,28 @@
       font-weight: 1000;
       font-size: 20px;
     }
+    g{
+      color:#00aa39;
+    }
+    a{
+      color:#f17a0a;
+    }
+    b{
+      color:#327aff;
+    }
+    
      body{
-       background-color:#fcee70
+       background-color:#f8a932
      }
      .page{
        width: 950px;  
-       height: 3200px;
-       background-color: #fdcec0;   
+       height: 3900px;
+       background-color: #fdd8c0;   
        margin: auto;
        padding: 50px;
        padding-top: 35px;
     }
+
     .vis-container{
       width: 100%;
     }
@@ -68,11 +79,11 @@
   <div class="pure-g">
     <div class="pure-u-1-1">
       <h1>Food and Culture in Bangalore</h1>
-      <h2>Where are Bangalorians situated around resturants?</h2>
+      <h2>Introduction</h2>
       <div class="description description-center">
       <p>The bustling city of Bangalore located in the South of India, and at the heart of Karnataka,
         is a city known for its shopping as well as food culture. Being the shopping capital of India, Bangalore is a hub for foodies all around the world to enjoy the variety of cuisines available to relish. 
-        In this visualisation we seek to explore some of Bangalore's resturants and it's food culture </p>
+        In this visualisation we seek to explore some of Bangalore's resturants and it's food culture. We also want to see how the demographics of the city looks like. </p>
       </div>
   </div>
 
@@ -83,19 +94,23 @@
     </div>
   </div>
 
-<!--map Description text if needed-->
+<!--map Description text-->
   <div class="pure-g">
     <div class="pure-u-1-1">
-      <p>The map above shows how different resturants are spread across the city.
-      Click on the zoom button to zoom in on the map.</p>
+      <p>This map above, showcases the spread of a sample of resturants across the city as a dot. The color of the dot represents the resturants main cuisine and the size 
+        reprsents its rating. Use the filters above to find resturants that have your favourite food or use the online delivery filter to find out if food can be delievered to your home.</p>
     </div>
   </div>
 <!--word cloud intro-->
   <div class="pure-g">
     <div class="pure-u-1-1">
+    <h2>A Snapshot of Food culture in Bangalore</h2>
+    <div id="vis2" class="vis-container"></div>
       <div class= "description description-left">
-    <h2>A random look at Bangalore's Food</h2>
-        <p>TEXT</p>
+        <p>How is the view of Bangaloreans on their resturants? Like any good food critique the world cloud shows that reviewers consider all aspects of a resurant including 
+          its <b>Ambience</b>,<b>Atmosphere</b> and <b>Service</b>. The most popular comments are in the middle of the cloud and most of these words are positive, suggesting that 
+          Bangaloreans are happy with the food and culture the city provides. Towards the edges of the visualisation we see a few critiques,words describing the cuisine and also the atmopshere of resturants. 
+          This 
         <p>more text if needed</p>
       
         <div id="vis2" class="vis-container"></div>
@@ -107,8 +122,10 @@
 <!-- bar chart-->
   <div class="pure-g">
     <div class="pure-u-1-1">
-        <h2>A random look at Bangalore's Food</h2>
-        <p>TEXT</p>
+      <h2>Are Resturants really worth the pricey charge?</h2>
+      <p>Interestingly,we find that the best resturants in Bangalore are often the simplest and in fact cheapest! Here, we discover that the idea <b>'the more you pay, the better the quality'</b>
+        doesn't exist in the city that has over <b>50,000 resturants!</b> Another fascinating analysis is that chain food organisations like 'Pizza hut' and 'Onesta' are overpriced for the quality they serve. 
+        Use the location filter to find out how prices vary in your location. Look out for the darker coloured 
     </div>
   </div>
 
@@ -122,14 +139,17 @@
   <!-- radar chart-->
   <div class="pure-g">
     <div class="pure-u-1-1">
-        <h2>A random look at Bangalore's Food</h2>
-        <p>TEXT</p>
+        <h2>Demographics of Customers in Bangalore</h2>
+        <p> Let's have a look at the demographics of a sample of customers at a Bangalore resturant. Each Category such as Age, Education and Income is encoded into a category whilst family size represents
+          the size of the costumers. The customer with the occupation of "Self-Employed" earnt the most out of the other customers. This reflects Bangalore's economy which is highly influenced by the startup
+        trend.</p>
     </div>
   </div>
 
   <!--radar chart vis container-->
   <div class="pure-g">
     <div class="pure-u-1-1">
+      <div class description description-left></div>
       <div id="vis4" class="vis-container"></div>
     </div>  
   </div>
@@ -137,18 +157,51 @@
   <!-- parralel chart-->
   <div class="pure-g">
     <div class="pure-u-1-1">
-        <h2>A random look at Bangalore's Food</h2>
-        <p>TEXT</p>
+    <div class description description-right>
+        <p>The different coloured radars on the left represent different occupations.
+        <p><a>Orange: house Wife</a></p>
+        <p> Red: Student</p>
+        <p><g>Green:Self Employed</g></p>
+        <p><b>Blue:Employed</b></p>
+      </div>
+    </div>  
+  </div>
+  
+
+  <!-- parralel chart descrpt-->
+  <div class="pure-g">
+    <div class="pure-u-1-1">
+      <h2>Customer Preferences compared to their Gender</h2>
+      <p>In this visualisation we compare what Customers believe in different categories to their gender. The different categories are based on questions on whether or not they disagree
+        or agree with Good Food quality, Good tracking system provided when ordering online and so on. The Visualisation aims to map out the responses to the questions. 
+      </p>
     </div>
   </div>
-
-    <p>more text if needed</p>
 
   <!--parralel vis container-->
   <div class="pure-g">
     <div class="pure-u-1-1">
       <div id="vis5" class="vis-container"></div>
     </div>  
+  </div>
+  <!-- parralel chart descrpt-->
+  <div class="pure-g">
+    <div class="pure-u-1-1">
+      <h2>Conclusion</h2>
+      <p>Bangaloreans are proud to be in a city that hosts one of the worlds must diverse cuisines, a cost friendly budget with tasty food that inspires.Overall the city is a must visit for all those travelling 
+        and we can tell from this reivew, that food should be bought at authentic places,even though it may looks simple. 
+
+
+
+
+      
+        <p>
+          <div class description description-down>
+          A visualisation by Shyam Srinivas at <b>https://github.com/shyamsrini364</b>
+          </div>
+        </p>
+      </p>
+    </div>
   </div>
 
 </div>  <!--end of page-->

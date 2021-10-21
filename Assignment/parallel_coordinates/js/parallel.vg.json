@@ -4,7 +4,7 @@
     "data": {
       "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/parallel_coordinates/data/sample2.csv"
     },
-    "width": 900,
+    "width": 850,
     "height": 400,
     "transform": [
       {"filter": "datum['Good Food quality']"},

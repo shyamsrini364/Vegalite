@@ -1,14 +1,38 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 850,
+  "width": 600,
   "height": 500,
   "title": "Resturants in Bangalore",
   "projection": {"type": "equirectangular",
                 "center":[180,-50]
             },
   "params":[
-    {"name":"cost_slider","value":50,
-      "bind":{"input":"range","min":100,"max":2400,"step":50,"name":"Cost"}
+    {
+    "name": "cuisine",
+      "bind":{
+        "input": "select",
+        "options": [
+          null,
+          "North Indian",
+          "Asian",
+          "Italian",
+          "Fast Food",
+          "South Indian",
+          "Desserts",
+          "Snacks"
+        ],
+        "labels": [
+          "Select All",
+          "North Indian",
+          "Asian",
+          "Italian",
+          "Fast Food",
+          "South Indian",
+          "Desserts",
+          "Snacks"],
+          "name":"Cuisine :"
+      }
+
       },
       {
         "name":"Online_delivery",
@@ -23,7 +47,9 @@
           "Select All",
           "Yes",
           "No"
-          ]
+          ],
+          "name":"Online Delivery :"
+
         }
       }],
   
@@ -41,7 +67,9 @@
         "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/dot_map/data/resturants_dotmap.csv" 
       },
 
-     "transform":[{"filter":"Online_delivery==null||datum.online_delivery==Online_delivery"}
+     "transform":[ 
+       {"filter":"Online_delivery==null||datum.online_delivery==Online_delivery"},
+      {"filter":"cuisine==null||datum.Cuisines==cuisine"}
    ],
     
       "mark": {"type": "circle"},
