@@ -1,15 +1,49 @@
 {
    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": { "text": "Resturants and their Ratings" },
-  "width": 900,
-  "height": 600,
+  "width": 850,
+  "height": 500,
+  "params":[
+     {
+        "name":"Location_selection",
+        "value":"Koramangala",
+        "bind":{
+           "input": "select",
+           "options":[
+                    null,
+                     "Koramangala",
+                     "Jayanagar",
+                      "BTM",
+                      "HSR",
+                      "JP Nagar",
+                      "Frazer Town"
+           ],
+           "labels":[
+              "select all",
+              "Koramangala",
+              "Jayanagar",
+               "BTM",
+               "HSR",
+               "JP Nagar",
+               "Frazer Town"
+
+           ],
+           "name":"Location"
+        }
+     }
+    ],
+   "transform":[
+      {"filter":"Location_selection==null||datum.Location==Location_selection"}
+   ],
   "data": {
-  "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/bar_chart/data/bar_chart_data_swiggy.csv"},
+  "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/bar_chart/data/bar_chart_data_swiggy2.csv"},
   "mark": {"type":"bar","tooltip":true},
   "encoding": {
   "x": { "field": " Resturant Name", "type": "nominal" ,"sort":"-x"},
   "y": { "field": "Cost_for_Two", "type": "quantitative","title":"Approximate Cost" },
-  "color":{"field":"Rating","type":"quantitative","sort": [], "scale": { "range":["#FFB703","#023047"]}
+  "color":{"field":"Rating","type":"quantitative","sort": [],
+  "scale": {"domain":[3.5,5],
+  "scheme":"yelloworangered"}
 }
   }
  }

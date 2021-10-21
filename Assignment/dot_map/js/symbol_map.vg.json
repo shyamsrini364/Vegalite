@@ -1,26 +1,60 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 900,
-  "height": 600,
+  "width": 850,
+  "height": 500,
   "title": "Resturants in Bangalore",
   "projection": {"type": "equirectangular",
-                "center":[180,-50]},
+                "center":[180,-50]
+            },
+  "params":[
+    {"name":"cost_slider","value":50,
+      "bind":{"input":"range","min":100,"max":2400,"step":50,"name":"Cost"}
+      },
+      {
+        "name":"Online_delivery",
+        "bind":{
+         "input":"select",
+         "options":[
+          null,
+          "Yes",
+          "No"
+         ],
+         "labels":[
+          "Select All",
+          "Yes",
+          "No"
+          ]
+        }
+      }],
+  
+          
    "layer": [
     {
       "data": {
         "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/dot_map/js/BBMP.geo%20(Topo).json",
         "format": {"type": "topojson", "feature": "BBMP.geo"}
       },
-      "mark": {"type": "geoshape", "fill": "#dddddd", "stroke": "silver"}
+      "mark": {"type": "geoshape", "fill": "#ffd39dcf", "stroke": "silver"}
     },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/shyamsrini364/Vegalite/main/Assignment/dot_map/data/resturants_dotmap.csv" 
       },
-      "mark": {"type": "circle", "tooltip": {"content": "data"}},
+
+     "transform":[{"filter":"Online_delivery==null||datum.online_delivery==Online_delivery"}
+   ],
+    
+      "mark": {"type": "circle"},
       "encoding": {
         "longitude": {"field": "Longitude", "type": "quantitative"},
         "latitude": {"field": "Latitude", "type": "quantitative"},
+        "tooltip":[{"field":"Resturant Name","title":"Resturant Name","type":"nominal"},
+          {"field":"Cost_for_two","title":"Cost for two","type":"quantitative"},
+          {"field":"Cuisines","title":"Main Cuisine","type":"nominal"},
+          {"field":"online_delivery","title":"Online Delivery Option","type":"nominal"},
+          {"field":"rating","title":"Rating","type":"quantitative"}
+        ],
+        
         "size": {
           "field": "rating",
           "type": "quantitative",

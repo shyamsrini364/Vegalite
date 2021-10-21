@@ -1,6 +1,6 @@
 {"$schema":"https://vega.github.io/schema/vega/v5.json",
   "description": "A word cloud visualization of Sample Resturant Views in Bangalore",
-  "width": 800,
+  "width": 850,
   "height": 400,
   "padding": 0,
 
@@ -16,10 +16,10 @@
       "Service is good. Prices are affordable.",
       "The ambience is really nice, staff is courteous. The price is pretty high for the quantity, but overall the experience was fine. The quality of food is nice but nothing extraordinary. They also have buffet only veg",
       "The quality of food is nice but nothing extraordinary",
-      "This place just cool ? with good ambience and slow music and having delicious food is where you find peace. Staff very friendly and they have maintained the place so clean. The price is average for what the quantity of food they serve.Thom yum Thai soup was best and was treat to mouth, roti was soft with that vilaythi paneer was perfect to have for veggie foodies, in rice we tried burnt garlic fried rice with vegetables and it was the perfect thing to end.',   Quiet a good family type of place.. too calm and usually we don't find crowd here.. panner curry and the deserts is what we had tasted.. they wer really good but we found it a little expensive",   
-      "I had a very bad experience here.I don't know about a la carte, but the buffet was the worst. They gave us complementary drink and momos before the buffet. The momos were really good.The number of varieties first of all was very disappointing. The service was very slow. They refilled the food very slowly. The starters were okay. The main course also was so so. There was two gravies with roti and some rice with raitha.",
+      "This place just cool ? with good ambience and slow music and having delicious food is where you find peace. Staff very friendly and they have maintained the place so clean. The price is average for what the quantity of food they serve.Thom yum Thai soup was best and was treat to mouth, roti was soft with that paneer was perfect to have for veggie foodies, in rice we tried burnt garlic fried rice with vegetables and it was the perfect thing to end.',   Quiet a good family type of place.. too calm and usually we don't find crowd here.. panner curry and the deserts is what we had tasted.. they really good but we found it a little expensive",   
+      "I had a very bad experience here.I don't know about a la carte, but the buffet was the worst. They gave us complementary drink and momos before the buffet. The momos were really good.The varieties first of all was very disappointing. The service was very slow. They refilled the food very slowly. The starters were okay. The main course also was so so. There was two gravies with roti and some rice with raitha.",
       "Very polite and courteous",
-      "the staff welcomed me with a warm smile",
+      "the staff welcome me with a warm smile",
       "hot and freshly made",
       "It was tasty with the taste of coconut milk",
       "Congested atmosphere due to smoke from kitchen",
@@ -27,15 +27,15 @@
       "This place has high potential but let down by dull ambience",
       "Great food and proper Karnataka style full meals. Been there twice and was fully satisfied.. Will give 5 stars if it's well managed",
       "Very good restaurant in neighbourhood. Buffet system is properly arranged. Variety of dishes along with garba dance and puppet show. Good spread of desserts.",
-      "We ordered soups, babycorn starters, butter naan, kadai panner, veg kohlapuri, pease pulav. Food was good. But the service is too slow",
+      "We ordered soups, babycorn starters, butter naan, kadai paneer, veg kohlapuri, pease pulav. Food was good. But the service is too slow",
       "Nice Ambience and setting. Also outdoor dining is available. ",
       "is really good and the place is clean also. All in all wonderful place and another great restaurant part of the franchise",
       "oved the foodie experience here",
       "they were all so friendly and courteous",
       "I love the service here",
-      "This is a peaceful place where u can seat chat with your friends with very good starters , drinks , and ofourse pizzas",
-      "Great service,Friendly staff,Good quality of food",
-      "A complete disappointment as it just had some processed cheese and the bread was dipped in ghee",
+      "This is a peaceful place where u can seat chat with your friends with very good starters , drinks , and ofourse pizzas and Chaats",
+      "Great service,Friendly staff,Good quality of food and paneer",
+      "A complete disappointment as it just cool cool cool had some processed cheese and the bread was dipped in ghee",
       "The right menu for quick bites as well as main course"
       ],
       "transform": [
@@ -44,7 +44,7 @@
           "field": "data",
           "case": "upper",
           "pattern": "[\\w']{3,}",
-          "stopwords": "(of|ofcourse|i|me|my|myself|we|us|our|ours|ourselves|you|your|yours|yourself|yourselves|he|him|his|himself|she|her|hers|herself|it|its|itself|they|them|their|theirs|themselves|what|which|who|whom|whose|this|that|these|those|am|is|are|was|were|be|been|being|have|has|had|having|do|does|did|doing|will|would|should|can|could|ought|i'm|you're|he's|she's|it's|we're|they're|i've|you've|we've|they've|i'd|you'd|he'd|she'd|we'd|they'd|i'll|you'll|he'll|she'll|we'll|they'll|isn't|aren't|wasn't|weren't|hasn't|haven't|hadn't|doesn't|don't|didn't|won't|wouldn't|shan't|shouldn't|can't|cannot|couldn't|mustn't|let's|that's|who's|what's|here's|there's|when's|where's|why's|how's|a|an|the|and|but|if|or|because|as|until|while|of|at|by|for|with|about|against|between|into|through|during|before|after|above|below|to|from|up|upon|down|in|out|on|off|over|under|again|further|then|once|here|there|when|where|why|how|all|any|both|each|few|more|most|other|some|such|no|nor|not|only|own|same|so|than|too|very|say|says|said|shall|food|it)"
+          "stopwords": "(of|ofcourse|i|me|my|myself|we|us|our|ours|ourselves|you|your|yours|yourself|yourselves|he|him|his|himself|she|her|hers|herself|it|its|itself|they|them|their|theirs|themselves|what|which|who|whom|whose|this|that|these|those|am|is|are|was|were|be|been|being|have|has|had|having|do|does|did|doing|will|would|should|can|could|ought|i'm|you're|he's|she's|it's|we're|they're|i've|you've|we've|they've|i'd|you'd|he'd|she'd|we'd|they'd|i'll|you'll|he'll|she'll|we'll|they'll|isn't|aren't|wasn't|weren't|hasn't|haven't|hadn't|doesn't|don't|didn't|won't|wouldn't|shan't|shouldn't|can't|cannot|couldn't|mustn't|let's|that's|who's|what's|here's|there's|when's|where's|why's|how's|a|an|the|and|but|if|or|because|as|until|while|of|at|by|for|with|about|against|between|into|through|during|before|after|above|below|to|from|up|upon|down|in|out|on|off|over|under|again|further|then|once|here|there|when|where|why|how|all|any|both|each|few|more|most|other|some|such|no|nor|not|only|own|same|so|than|too|very|say|says|said|shall|food|it|just|know|gave|)"
         },
         {
           "type": "formula", "as": "angle",
@@ -57,6 +57,8 @@
       ]
     }
   ],
+
+  
 
   "scales": [
     {
@@ -84,12 +86,13 @@
         },
         "hover": {
           "fillOpacity": {"value": 0.5}
+
         }
       },
       "transform": [
         {
           "type": "wordcloud",
-          "size": [700, 500],
+          "size": [1000, 500],
           "text": {"field": "text"},
           "rotate": {"field": "datum.angle"},
           "font": "Helvetica Neue, Arial",
