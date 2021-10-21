@@ -76,7 +76,7 @@
       "encoding": {
         "longitude": {"field": "Longitude", "type": "quantitative"},
         "latitude": {"field": "Latitude", "type": "quantitative"},
-        "tooltip":[{"field":"Restaurant Name","title":"Resturant Name","type":"nominal"},
+        "tooltip":[{"field":"Restaurant Name","title":"Restaurant Name","type":"nominal"},
           {"field":"Cost_for_two","title":"Cost for two","type":"quantitative"},
           {"field":"Cuisines","title":"Main Cuisine","type":"nominal"},
           {"field":"online_delivery","title":"Online Delivery Option","type":"nominal"},
